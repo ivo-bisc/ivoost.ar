@@ -31,7 +31,7 @@ export function HeroSection() {
           <div className="flex items-center justify-between gap-4">
             <a href="#top" className="flex items-center gap-3">
               <img
-                src="/logo.png"
+                src={`${import.meta.env.BASE_URL}logo.png`}
                 alt="IVOOST"
                 className="h-9 w-auto [filter:invert(1)_hue-rotate(180deg)]"
               />
