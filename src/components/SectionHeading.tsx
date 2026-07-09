@@ -18,10 +18,7 @@ export function SectionHeading({ kicker, title, copy, align = 'left' }: SectionH
       transition={{ duration: 0.6, ease: 'easeOut' }}
       className={`${alignment} max-w-3xl`}
     >
-      <p className="section-kicker mb-4">
-        <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-accent" />
-        {kicker}
-      </p>
+      
       <h2 className="section-title">{title}</h2>
       <p className="section-copy mt-4">{copy}</p>
     </motion.div>

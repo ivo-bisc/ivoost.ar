@@ -8,11 +8,9 @@ export function ProcessSection() {
     <section id="proceso" className="relative py-20 sm:py-24 lg:py-28">
       <Container>
         <SectionHeading
-          kicker="Proceso"
           title="Un flujo simple para avanzar sin fricción"
           copy="Trabajamos en cuatro etapas claras para que sepas siempre qué sigue y cómo evoluciona tu proyecto."
-          align="center"
-        />
+          align="center" kicker={''}        />
         <div className="mt-12 grid gap-4 lg:grid-cols-4">
           {processSteps.map((step, index) => (
             <motion.article

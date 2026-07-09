@@ -34,10 +34,6 @@ export function FinalCtaSection() {
           <div className="pointer-events-none absolute -left-16 -top-16 h-64 w-64 animate-blob rounded-full bg-accent/15 blur-[100px]" />
 
           <div className="relative">
-            <p className="section-kicker">
-              <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-accent" />
-              CTA final
-            </p>
             <h2 className="mt-4 max-w-xl text-3xl font-semibold tracking-tight text-ink md:text-5xl">
               La atención está en redes. Las ventas ocurren en tu web.
             </h2>
@@ -48,7 +44,7 @@ export function FinalCtaSection() {
               <PrimaryButton type="submit" form="contact-form">
                 Enviar por WhatsApp
               </PrimaryButton>
-              <SecondaryButton href="mailto:hola@ivoost.ar">Escribir por email</SecondaryButton>
+              <SecondaryButton href="mailto:ivobiscardi@hotmail.com">Escribir por email</SecondaryButton>
             </div>
           </div>
 
